@@ -19,34 +19,36 @@ export async function all(m) {
         this.sendButton(m.chat, `${wm}
 
         ╭━━━━「 SEWA 」
-        ┊⫹⫺ Hemat: 5k/grup (1 minggu)
-        ┊⫹⫺ Normal: 15k/grup (1 bulan)
-        ┊⫹⫺ Standar: 30k/grup (2 bulan)
-        ┊⫹⫺ Pro: 35k/grup (4 bulan)                                                      
-        ┊⫹⫺ Vip: = 65k/grup (12 bulan)
+        ┊⫹⫺ Hemat: 10k/grup (1 minggu)
+        ┊⫹⫺ Normal: 30k/grup (1 bulan)
+        ┊⫹⫺ Standar: 50k/grup (2 bulan)
+        ┊⫹⫺ Pro: 70k/grup (4 bulan)
+        ┊⫹⫺ Vip: = 100k/grup (12 bulan)
         ╰═┅═━––––––๑
         
         ╭━━━━「 PREMIUM 」
         ┊⫹⫺ Hemat: 5k (1 minggu)
         ┊⫹⫺ Normal: 20k (1 bulan)
-        ┊⫹⫺ Pro: 40k (4 bulan)
-        ┊⫹⫺ Vip: 50k (8 bulan)                                               
-        ┊⫹⫺ Permanent: = 70k (Unlimited)
+        ┊⫹⫺ Standar: 40k (3 bulan)
+        ┊⫹⫺ Pro: 50k (4 bulan)
+        ┊⫹⫺ Vip: 80k (8 bulan)
         ╰═┅═━––––––๑
         
         ⫹⫺ PAYMENT:
-        • Pulsa Telkomsel: [082127487538]
-        • Dana: [082127487538]
-        • Gopay: [082127487538]
-        • Ovo: [082127487538]
-        • Link Aja: [082127487538]
+        • Pulsa XL AXIATA: [087848115476]
+        • Pulsa AXIS AXIATA: [083816446896]
+        • Dana: [087848115476]
+        • Gopay: [087848115476]
+        • Ovo: [087848115476]
+        • MotionPay: [087848115476]
+        • Saweria: [https://saweria.co/mimimproject]
         
         Nomor Owner :
-        wa.me/6282127487538
+        wa.me/6285226116539
         
         ▌│█║▌║▌║║▌║▌║█│▌
         
-        #BY WH MODS DEV
+        #BY Mimim Official
         `.trim(), wm, 'Pemilik Bot', '.owner', m)
 await this.reply(nomorown + '@s.whatsapp.net', `Ada Yang Mau Nyulik nih :v \n\ndari: @${m.sender.split("@")[0]} \n\npesan: ${m.text}`, m, { mentions: [m.sender] })
     }

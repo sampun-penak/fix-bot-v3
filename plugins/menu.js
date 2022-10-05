@@ -275,7 +275,7 @@ const sections = [
     rows: [
         {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
         {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
-        {title: `⏰ ${pmenus} RUNTIME BOT`, rowId: ".runtime", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 Waktu Bot Berjalan"}, 
+        {title: `⏰ ${pmenus} RUNTIME BOT`, rowId: ".runtime", description: "Menampilkan Waktu Bot Berjalan"}, 
         {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
     ]
       },{
@@ -331,7 +331,7 @@ let tek = `✧────···[ Dashboard ]···────✧
 ┬
 │${emot} 「 Hai Kak👋 」
 ├❖ 「 ${conn.getName(m.sender)} 」
-├❖  Bagaimana Harimu? 😄
+├❖  Bagaimana Harimu?
 ├❖  Terima Kasih Telah Menggunakan Bot Kami
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
@@ -359,12 +359,12 @@ let tek = `✧────···[ Dashboard ]···────✧
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │
-│ ▸ *Sumber :* YouTube WH-MODS-DEV
+│ ▸ *Instagram :* @sampun_penak
 │ ▸ *ᴀᴜᴛʜᴏʀ :* ${nameown}
 ┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
+│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^_^
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │${emot} *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
@@ -373,7 +373,7 @@ let tek = `✧────···[ Dashboard ]···────✧
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
-  footer: `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`,
+  footer: `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan mohon dimaklumi karena script hasil recode:)\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`,
   mentions: await conn.parseMention(tek),
   title: ``,
   buttonText: `CLICK HERE ⎙`, 
@@ -557,7 +557,7 @@ const listMessage = {
 
     surface : 1,
 
-    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Ya Kak ^ω^', 
+    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Ya Kak ^_^', 
 
     orderTitle: `▮Menu ▸`,
 
@@ -630,7 +630,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/WH-MODS-BOT/'
+                        url: 'https://github.com/sampun-penak'
                     }
                 },
                 {
